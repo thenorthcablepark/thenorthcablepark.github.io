@@ -202,12 +202,12 @@ section {
 .navbar-custom .navbar-nav > li.active > a {
     background: none;
     outline: 0;
-    color: #68c3a3;
+    color:#6495ED;
 }
 
 .navbar-custom .navbar-brand {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .navbar-custom .nav .open > a,
