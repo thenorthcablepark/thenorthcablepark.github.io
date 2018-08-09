@@ -31,27 +31,34 @@
     <div></div>
   </div>
 </div>
-
+<div></div>
 <!-- Top Navigation -->
-    <nav class="navbar navbar-toggleable-md mb-4 top-bar navbar-static-top sps sps--abv">
+<header class="header">
+    <nav class="navbar navbar-custom" role="navigation">
         <div class="container">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse1" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="#">Gölkay <span>Park</span></a>
-      <div class="collapse navbar-collapse" id="navbarCollapse1">
-        <ul class="navbar-nav ml-auto">
-        <li class="nav-item active"> <a class="nav-link" href="#home">Anasayfa <span class="sr-only">(current)</span></a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#activities">Aktiviteler</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#about">Hakkımızda</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#prices">Fiyatlarımız</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#gallery">Galeri</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#contact">İletişim</a> </li>
-        </ul>
-      </div>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Gölkay <span>Park</span></a>
             </div>
-    </nav>
-
+            <div class="collapse navbar-collapse" id="custom-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li> <a href="#home">Anasayfa</a></li>
+                    <li> <a href="#activities">Aktiviteler</a> </li>
+                    <li> <a href="#about">Hakkımızda</a> </li>
+                    <li> <a href="#prices">Fiyatlarımız</a> </li>
+                    <li> <a href="#gallery">Galeri</a> </li>
+                    <li> <a href="#contact">İletişim</a> </li>
+                </ul>
+            </div>
+        </div>
+      </nav>
+  </header>
+     
     <div id="home">
       <video loop muted autoplay playsinline id="header_video"></video>
     </div>
@@ -70,42 +77,42 @@
           <div class="col-md-6 text-sm-center service-block"> <!--<i class="fa fa-clipboard-check" aria-hidden="true"></i>-->
             <h3>Wakeboard</h3>
             <p>Kablolu wakeboard deneyimi.</p>
-            <img src="img/wakeboard.jpg" class="img-fluid" />
+            <img src="img/wakeboard.jpg" class="img-responsive" />
           </div>
           <div class="col-md-6 text-sm-center service-block"> <!--<i class="fa fa-clipboard-check" aria-hidden="true"></i>-->
             <h3>Wakeskate</h3>
             <p>Kablolu su kaykayı deneyimi.</p>
-            <img src="img/wakeskate.jpg" class="img-fluid" />
+            <img src="img/wakeskate.jpg" class="img-responsive" />
           </div>
           <div class="col-md-6 text-sm-center service-block"> <!--<i class="fa fa-clipboard-check" aria-hidden="true"></i>-->
             <h3>Su Kayağı</h3>
             <p>Kablolu su kayağı deneyimi.</p>
-            <img src="img/waterski.jpg" class="img-fluid" />
+            <img src="img/waterski.jpg" class="img-responsive" />
           </div>
           <div class="col-md-6 text-sm-center service-block"> <!--<i class="fa fa-clipboard-check" aria-hidden="true"></i>-->
             <h3>Monoski</h3>
             <p>Tek kayakla yapılan su kayağı deneyimi.</p>
-            <img src="img/monoski.png" class="img-fluid" />
+            <img src="img/monoski.png" class="img-responsive" />
           </div>
           <div class="col-md-6 text-sm-center service-block"> <!--<i class="fa fa-clipboard-check" aria-hidden="true"></i>-->
             <h3>Kneeboard</h3>
             <p>Diz üstünde kayma deneyimi.</p>
-            <img src="img/kneeboard.jpg" class="img-fluid" />
+            <img src="img/kneeboard.jpg" class="img-responsive" />
           </div>
           <div class="col-md-6 text-sm-center service-block"> <!--<i class="fa fa-clipboard-check" aria-hidden="true"></i>-->
             <h3>Flyboard</h3>
             <p>Suyun 3-10 metre üstünde suyun itiş gücünü kullanarak asılı kalmanızı ve çeşitli akrobasileri yapmanızı sağlayan bir araçtır. Kullanımı çok basit ve yürümek kadar doğaldır. Dolaysıyla öğrenilmesi de çok kolaydır.</p>
-            <img src="img/flyboard.jpg" class="img-fluid" />
+            <img src="img/flyboard.jpg" class="img-responsive" />
           </div>
           <div class="col-md-6 text-sm-center service-block"> <!--<i class="fa fa-clipboard-check" aria-hidden="true"></i>-->
             <h3>SUP</h3>
             <p>Stand Up Paddle Board yani Türkçe ismiyle kürek sörfü deneyimi.</p>
-            <img src="img/sup.jpg" class="img-fluid" />
+            <img src="img/sup.jpg" class="img-responsive" />
           </div>
           <div class="col-md-6 text-sm-center service-block"> <!--<i class="fa fa-clipboard-check" aria-hidden="true"></i>-->
             <h3>Kano</h3>
             <p>Kano deneyimi.</p>
-            <img src="img/kano.jpg" class="img-fluid" />
+            <img src="img/kano.jpg" class="img-responsive" />
           </div>
         </div>
     </div>
@@ -143,7 +150,7 @@
     </div>
     </div>
       <div class="col-md-4 blog-box">
-        <div class="blog-image-block"> <img src="img/wake.png" alt="" class="img-fluid"> </div>
+        <div class="blog-image-block"> <img src="img/wake.png" alt="" class="img-responsive"> </div>
         <h3 class="blog-title"><small>Wakeboard / Wakeskate / Su Kayağı / Monoski / Kneeboard</small></h3>
         <p class="blog-content">
             <div>1 Saat: 45 TL</div>
@@ -158,17 +165,17 @@
       </div>
       <div class="col-md-4 blog-box">
         <div class="blog-image-block"> 
-          <img src="img/flyboard.jpg" alt="" class="img-fluid"> 
+          <img src="img/flyboard.jpg" alt="" class="img-responsive"> 
         </div>
         <h3 class="blog-title"><small>Flyboard</small></h3>
-        <p class="blog-content">15 DK 300 TL</p>
+        <p class="blog-content">15 DK: 300 TL</p>
       </div>
       <div class="col-md-4 blog-box">
-        <div class="blog-image-block"> <img src="img/sup.jpg" alt="" class="img-fluid"> </div>
+        <div class="blog-image-block"> <img src="img/sup.jpg" alt="" class="img-responsive"> </div>
         <h3 class="blog-title"><small>SUP / Kano</small></h3>
         <p class="blog-content">
-          <div>1 Saat 1 Kişi 20 TL</div>
-          <div>1 Saat 2 Kişi 30 TL (Kano)</div>
+          <div>1 Saat 1 Kişi: 20 TL</div>
+          <div>1 Saat 2 Kişi: 30 TL (Kano)</div>
         </p>
       </div>
     </div>
@@ -231,14 +238,30 @@
 <!-- Bootstrap core JavaScript
     ================================================== --> 
 <!-- Placed at the end of the document so the pages load faster --> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script> 
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script src="js/smoothscroll.js"></script> 
 <script src="js/scrollPosStyler.js"></script> 
 <script src="js/swiper.min.js"></script> 
 <script src="js/isotope.min.js"></script> 
 <script src="js/nivo-lightbox.min.js"></script> 
 <script src="js/wow.min.js"></script> 
 <script src="js/core.js"></script> 
+<script>
+   (function () {
+        $('.header').sticky({
+            topSpacing: 0
+        });
+
+        $('body').scrollspy({
+            target: '.navbar-custom',
+            offset: 70
+        })
+    }());
+
+</script>
 <script>
   var vid = "rucyODIk6wI",
     streams,
